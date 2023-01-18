@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;}
+.spacer-50{
+    padding-top: 50px;
+}
+.spacer-100{
+    padding-top: 100px;
+}
+.spacer-150{
+    padding-top: 150px;
+}
+    @import"./sass/header.scss"; 
+    @import"./sass/main-hero-section.scss";
+    @import"./sass/Description-section.scss"; 
+    @import"./sass/card-section.scss";
+    @import"./sass/elementary-card-section.scss";

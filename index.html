@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Document</title>
+         <!-- Linking JQuery -->
+         <script
+         src="https://code.jquery.com/jquery-3.6.3.min.js"
+         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+         crossorigin="anonymous"
+     ></script>
+       <!-- Linking Font Awesome -->
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+   />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               <img src="sass/main-logo-img.png" alt="">
+            </div>
+            <div class="navigation-bar">
+                <nav>
+                    <a href="#"><i class="fas fa-home home"></i>Home</a>
+                    <a href="#"><i class="fas fa-align-left about"></i>About</a>
+                    <a href="#"><i class="fas fa-buffer works"></i>Works</a>
+                    <a href="#"><i class="fas fa-user team"></i>Team</a>
+                    <a href="#"
+                        ><i class="fas fa-headset contact"></i>contact</a
+                    >
+                </nav>
+                <i class="menu-toggle-button fas fa-bars"></i>
+            </div>
+        </header>
+        <script type="text/javascript">
+            $(".menu-toggle-button").click(function () {
+                $(this).toggleClass("fa-times active");
+                $("nav").slideToggle()
+            });
+        </script>
+       
+
+        <div class="main-hero-section">
+            <div class="spacer-50"></div>
+            <div class="main-hero-section-wrapper">
+                <h1>Our services</h1>
+                <p>Just say the word, we can do it all</p>
+                <div class="spacer-50"></div>
+            </div>
+        </div>
+        <div class="spacer-100"></div>
+        <div class="Description-section">
+            <div class="description-section-wrapper">
+                <h1>A step-by-step Roadmap to success</h1>
+                <h2>Create a better world</h2>
+                <p>
+                    Our services are tailored to meet the specific needs of our
+                    clients. We support non-profit initiatives of any kind,
+                    providing complex professional digital assistance. We think
+                    that by combining the possibilities of technology with the
+                    gentleness of a human heart, any goal is reachable. Our
+                    services will make your visions come to reality.
+                </p>
+            </div>
+        </div>
+        <div class="spacer-150"></div>
+        <div class="card-section">
+            <div class="card-section-wrapper">
+                <div class="card">
+                    <img src="sass/card-1.png" alt="" />
+                    <h1>Social media</h1>
+                    <p>
+                        Conquer the hearts and minds of your audience with
+                        unique social media posts created to help you achieve
+                        your marketing goals.
+                    </p>
+                    <img src="sass/right-arrow.png" alt="" />
+                </div>
+                <div class="card">
+                    <img src="sass/card-2.png" alt="" />
+                    <h1>Copywriting & Content Marketing Writing</h1>
+                    <p>
+                        Build your success on powerful words and shape your
+                        customers’ perspective with a variety of written content
+                        matched to your needs
+                    </p>
+                    </p>
+                    <img src="sass/right-arrow.png" alt="" />
+                </div>
+                <div class="card">
+                    <img src="sass/card-3.png" alt="" />
+                    <h1>Website Design</h1>
+                  <p>
+                    Captivate your audience with a modern, functional web design, and make their customer journey a pleasant and engaging experience.
+                  </p>
+                    
+                    <img src="sass/right-arrow.png" alt="" />
+                </div>
+                <div class="card">
+                    <img src="sass/card-4.png" alt="" />
+                    <h1>Performance Marketing</h1>
+                  <p>
+                    Boost your digital presence with Google Ads and Google Analytics 4. Increase your online performance with Search Engine Marketing
+                  </p>
+                    
+                    <img src="sass/right-arrow.png" alt="" />
+                </div>
+                <div class="card">
+                    <img src="sass/card-5.png" alt="" />
+                    <h1>Cloud Hosting</h1>
+                  
+                  <p>Discover the world of cloud solutions. Increase your health facility’s effectiveness with an EMR system or improve your business sustainability with a supply chain management tool.</p>
+                    
+                    <img src="sass/right-arrow.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="elementary-card-section">
+            <div class="elementary-card-section-wrapper"> 
+
+             </div>    
+        </div>
+    </body>
+</html>
