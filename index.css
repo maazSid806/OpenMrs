@@ -33,11 +33,22 @@ header .navigation-bar {
   gap: 20px;
   align-items: center;
 }
-header .navigation-bar i {
-  margin-right: 5px;
-  font-size: 16px;
+header .navigation-bar .icons-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 991px) {
+  header .navigation-bar .icons-bar {
+    display: none !important;
+  }
+}
+header .navigation-bar .icons-bar img {
+  max-width: 20px;
+  border-radius: 30px;
 }
 header .navigation-bar .menu-toggle-button {
+  color: #4632de;
   font-size: 26px;
   display: none !important;
 }
@@ -47,10 +58,11 @@ header .navigation-bar .menu-toggle-button {
   }
 }
 header .navigation-bar nav {
+  display: block;
   display: flex;
   gap: 20px;
   color: aliceblue;
-  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
   border-radius: 4px;
   transition: linear;
 }
@@ -61,24 +73,21 @@ header .navigation-bar nav {
     top: 50px;
     background-color: aliceblue;
     right: 0;
-    display: block;
+    display: none;
     padding: 20px 40px;
     box-sizing: border-box;
   }
   header .navigation-bar nav a {
-    color: #4632DE;
+    color: #4632de;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  header .navigation-bar nav a i {
-    display: none !important;
-  }
 }
 header .navigation-bar nav a {
+  text-decoration: none;
   padding: 12px 20px;
-  color: #4632DE;
-  text-transform: uppercase;
+  color: #4632de;
   border-radius: 4px;
   transition: 0.5s linear;
 }

@@ -24,24 +24,25 @@
                <img src="sass/main-logo-img.png" alt="">
             </div>
             <div class="navigation-bar">
-                <nav>
-                    <a href="#"><i class="fas fa-home home"></i>Home</a>
-                    <a href="#"><i class="fas fa-align-left about"></i>About</a>
-                    <a href="#"><i class="fas fa-buffer works"></i>Works</a>
-                    <a href="#"><i class="fas fa-user team"></i>Team</a>
-                    <a href="#"
-                        ><i class="fas fa-headset contact"></i>contact</a
-                    >
-                </nav>
+            
+               <nav>
+                <a href="#">services</a>
+                <a href="#">About</a>
+                <a href="#">Case studies</a>
+                <a href="#">Blog</a>
+                <a href="#">contact</a
+                >
+               </nav>
                 <i class="menu-toggle-button fas fa-bars"></i>
+                <div class="icons-bar">
+                    <img src="sass/facebook.png" alt="">
+                    <img src="sass/twitter.png" alt="">
+                    <img src="sass/instagram.png" alt="">
+                    <img src="sass/linkedin.png" alt="">
+                </div>
             </div>
         </header>
-        <script type="text/javascript">
-            $(".menu-toggle-button").click(function () {
-                $(this).toggleClass("fa-times active");
-                $("nav").slideToggle()
-            });
-        </script>
+      
        
 
         <div class="main-hero-section">
@@ -125,4 +126,10 @@
              </div>    
         </div>
     </body>
+      <script type="text/javascript">
+            $(".menu-toggle-button").click(function () {
+                $(this).toggleClass("fa-times");
+                $("nav").slideToggle()
+            });
+        </script>
 </html>
